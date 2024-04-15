@@ -1,0 +1,23 @@
+#临时对象
+{
+	ivec{
+		ivec_x int,
+		ivec_y int,
+		ivec_z int
+	},
+	jvec{
+		jvec_x int,
+		jvec_y int,
+		jvec_z int
+	}
+	kvec{
+		kvec_x int,
+		kvec_y int,
+		kvec_z int
+	},
+	xyz{
+		x int,
+		y int,
+		z int
+	}
+}
