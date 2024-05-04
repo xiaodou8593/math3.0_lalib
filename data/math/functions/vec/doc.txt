@@ -1,0 +1,4 @@
+# 三维向量的临时对象
+{
+	<vec_x,int>,<vec_y,int>,<vec_z,int>
+}
