@@ -1,4 +1,5 @@
 #math:vec/test/unit_sqrt
+# 聊天栏调用
 
 tellraw @a "--- math:vec unit_sqrt test ---"
 

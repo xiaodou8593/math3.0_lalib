@@ -1,4 +1,5 @@
 #math:vec/test/length
+# 聊天栏调用
 
 tellraw @a "--- math:vec length test ---"
 

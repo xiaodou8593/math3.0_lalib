@@ -1,4 +1,5 @@
 #math:uvw/test/vecto_macro
+# 聊天栏调用
 
 tellraw @a "--- uvw vecto macro test ---"
 
