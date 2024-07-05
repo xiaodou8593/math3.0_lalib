@@ -5,7 +5,7 @@
 # 需要以世界实体为执行者
 
 #计算正余弦
-execute store result entity @s Rotation[0] float -0.0001 run scoreboard players get phi int
+execute store result entity @s Rotation[0] float -0.0001 run scoreboard players get quat_phi int
 execute at @s positioned 0.0 0.0 0.0 rotated ~ 0.0 run tp @s ^ ^ ^1.0
 data modify storage math:io xyz set from entity @s Pos
 execute store result score cos int run data get storage math:io xyz[2] 10000
